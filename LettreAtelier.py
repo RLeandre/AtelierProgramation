@@ -66,7 +66,7 @@ def calculer_affranchissement(poids: float, type_lettre: str, sticker_suivi: boo
         return montant 
     
     else :
-        return "type de lettre non reconnu"
+        return -1
     
 
 
